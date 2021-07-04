@@ -5,9 +5,12 @@ h1{font-size: 50px;
 
 
 }
+h2{
+               font-size: 20px;
+}
 .brown-color{
                 color: brown;}
-                section{
+                .flexible-container{
 
                               display: flex;
                               margin-bottom: 100px;
@@ -15,7 +18,8 @@ h1{font-size: 50px;
                 .half-width{
                                width: 50%;
                                padding-left: 5%;
-                }
+ 
+                             }
                 .half-width img{
                                width:50% ;
                 }
@@ -29,4 +33,22 @@ h1{font-size: 50px;
                }
                .top-bannar{
                               background-image:pexels-ylanite-koppens-796602.jpg;
+}
+.experience-item{
+box-shadow: 10px 10px 40px grey;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding: 2px;
+border: 5px solid;
+border-color: lightsalmon;
+border-radius: 10px;
+}
+#dev-exp{
+               border-left: 5px dotted;
+               border-image:linear-gradient(pink,blue);
+               border-image-slice: 1;
+}
+footer p{ 
+    text-align: center; 
 }
